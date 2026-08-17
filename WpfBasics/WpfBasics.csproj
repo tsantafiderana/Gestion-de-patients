@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.11" />
+    <PackageReference Include="MahApps.Metro.IconPacks.Lucide" Version="6.2.1" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.1" />
+    <PackageReference Include="System.Data.SQLite" Version="2.0.3" />
+  </ItemGroup>
+
+</Project>
